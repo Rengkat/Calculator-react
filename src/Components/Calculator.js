@@ -5,7 +5,7 @@ function Calculator() {
   const { result, setResult, calc, setCalc, updateCal, equalTo, deletLast } =
     useContext(CalContext);
   return (
-    <div className="calculator-body max-w-xs md:max-w-sm">
+    <div className="calculator-body max-w-sm md:max-w-md">
       <div className="display">
         <div className="top-display">{result ? <span>{result}</span> : ""}</div>
         <div className="bottom-display">{calc || "0"}</div>
