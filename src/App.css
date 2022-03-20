@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 * {
   margin: 0;
   padding: 0;
@@ -12,9 +15,9 @@ body {
   overflow: hidden;
 }
 .calculator-body {
-  width: 25%;
+  /* width: 25%; */
   height: 90vh;
-  margin: 2rem auto;
+  margin: 1rem auto;
   justify-content: center;
   align-items: center;
   background-color: #131a26;

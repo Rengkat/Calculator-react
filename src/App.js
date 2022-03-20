@@ -4,7 +4,7 @@ import CalculatorContextProvider from "./Components/CalculatorContext";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <CalculatorContextProvider>
         <Calculator />
       </CalculatorContextProvider>
